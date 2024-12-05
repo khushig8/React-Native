@@ -2,6 +2,7 @@ import { View, Text, Button } from 'react-native'
 import React from 'react'
 import UseStateHook from './src/components/UseStateHooks'
 import Props from './src/components/Props'
+import InputText from './src/components/InputText'
 
 const App = () => {
   return (
@@ -10,6 +11,7 @@ const App = () => {
       <Button title='Press Here'/>
       <UseStateHook/>
       <Props/>
+      <InputText/>
     </View>
   )
 }

@@ -8,6 +8,7 @@ const UseStateHook = () => {
     }
   return (
     <View>
+      <Text style={{fontSize: 30}}>UseState</Text>
       <Text>Name: {name}</Text>
       <Button title="Press" onPress={getName}/>
     </View>
